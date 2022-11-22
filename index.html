@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./imovel.css">
+    <title>Formulário Imóvel</title>
+</head>
+<body>
+    <h2>Selecione as características do imóvel que deseja</h2>
+
+<p>Defina os parâmetros</p>
+<fieldset id="fieldset">
+<form>
+  <label for="Imóvel">Tipo de imóvel:</label>
+  <select id="Imóvel" name="Imóvel">
+    <option value="Casa">Casa</option>
+    <option value="Apartamento">Apartamento</option>
+    <option value="Kitnet">Kitnet</option>
+    <option value="Sítio">Sítio</option>
+    <option value="Lote">Lote</option>
+  </select><br><br>
+  
+
+  <label>Tamanho em metros quadrados</label><br>
+  <input id="faixa" type="range" list="tickmarks">
+  
+<datalist id="tickmarks">
+<option value="50" label="0%">
+<option value="60">
+<option value="70">
+<option value="80" label="50%">
+<option value="90">
+<option value="100">
+<option value="110" label="100%">
+</datalist><br>
+<label>Margem de Preço</label><br>
+  <input id="faixa" type="range" list="tickmarks">
+  
+<datalist id="tickmarks">
+<option value="50" label="50">
+<option value="60">
+<option value="70">
+<option value="80">
+<option value="90">
+<option value="100">
+</datalist><br><br>
+  <label for="Imóvel">Negócio:</label>
+  <select id="Imóvel" name="Imóvel">
+    <option value="Alugar">Alugar</option>
+    <option value="Vender">Vender</option>
+    <option value="Comprar">Comprar</option>
+      </select><br><br>
+     
+      <input type="submit">
+</form>
+</fieldset ><br><br>
+<textarea name="message" rows="10" cols="30">Comentários adicionais</textarea>
+<br><br>
+    
+</body>
+</html>
